@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1780559872162530}
+  m_IsPrefabParent: 1
+--- !u!1 &1780559872162530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4656588895695426}
+  - component: {fileID: 114789092288714992}
+  m_Layer: 0
+  m_Name: TileFactoryCaveOne
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4656588895695426
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780559872162530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114789092288714992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780559872162530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24967306c488cd41ba6b0ff809e9a2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factoryName: CaveOne
+  factoryID: 2
+  material: {fileID: 0}
+  tileSeparated: {fileID: 21300000, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileU: {fileID: 21300002, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileL: {fileID: 21300004, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileD: {fileID: 21300006, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileR: {fileID: 21300008, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUL: {fileID: 21300010, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUD: {fileID: 21300012, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUR: {fileID: 21300014, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileLD: {fileID: 21300016, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileLR: {fileID: 21300018, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileDR: {fileID: 21300020, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULD: {fileID: 21300022, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULR: {fileID: 21300024, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUDR: {fileID: 21300026, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileLDR: {fileID: 21300028, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULL: {fileID: 21300030, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileLLDD: {fileID: 21300032, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileDDRR: {fileID: 21300034, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileURUR: {fileID: 21300036, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULDR: {fileID: 21300038, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULLDD: {fileID: 21300040, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUDDRR: {fileID: 21300042, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULLD: {fileID: 21300044, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUDRUR: {fileID: 21300046, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULRUR: {fileID: 21300048, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULLR: {fileID: 21300050, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileLDDRR: {fileID: 21300052, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileLLDDR: {fileID: 21300054, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULLLDD: {fileID: 21300056, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileLLDDDRR: {fileID: 21300058, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUDDRRUR: {fileID: 21300060, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULLRUR: {fileID: 21300062, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULDRUR: {fileID: 21300064, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULLDR: {fileID: 21300066, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULLDDR: {fileID: 21300068, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULDDRR: {fileID: 21300070, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULLDRUR: {fileID: 21300072, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULLDDRR: {fileID: 21300074, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULDDRRUR: {fileID: 21300076, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULLLDDR: {fileID: 21300078, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULLDDRUR: {fileID: 21300080, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULLDDDRR: {fileID: 21300082, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULLDDRRUR: {fileID: 21300084, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULLLDDRUR: {fileID: 21300086, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileUULLLDDDRR: {fileID: 21300088, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileULLDDDRRUR: {fileID: 21300090, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileConnected: {fileID: 21300092, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileTriUULL: {fileID: 21300094, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileTriURUR: {fileID: 21300096, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileTriLLDD: {fileID: 21300098, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileTriDDRR: {fileID: 21300100, guid: 2b8a77feb8a624544bf0a6af603739f6, type: 3}
+  tileDebrisObject: {fileID: 0}
+  breakEffectObject: {fileID: 0}

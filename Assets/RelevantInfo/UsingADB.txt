@@ -1,0 +1,17 @@
+
+Having already installed the Android SDK, you can access the following folder:
+
+C:\Program Files (x86)\Android\android-sdk\platform-tools
+
+There you will find a program called ADB.
+
+If you go to the folder with a command prompt or bring a copy of the CMD program to the folder,
+you will be able to use ADB.
+
+Use "adb devices" to see if the device is being recognized by adb.
+
+Use "adb logcat" to see all the log messages of programs running in the device.
+
+Use "adb logcat -s Unity" to see only the log messages of the program Unity running in the device.
+
+Use "adb logact -s Unity > debug.txt" to print the log messages of the program into a txt file.

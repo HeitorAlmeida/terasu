@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1482037302254344}
+  m_IsPrefabParent: 1
+--- !u!1 &1482037302254344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4037632486863712}
+  - component: {fileID: 114661403130320118}
+  m_Layer: 0
+  m_Name: MenuMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4037632486863712
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1482037302254344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114661403130320118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1482037302254344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360bb2a5d7c1c4f4f8a07741706d4aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleModel: {fileID: 0}
+  titlePositionRates: {x: 0, y: 0}
+  titleScale: {x: 0, y: 0}
+  quitModel: {fileID: 1656609878700496, guid: 98b9cfe14192b4b44bdeb98df20b51c1, type: 2}
+  quitPositionRates: {x: 0.9, y: 0.9}
+  quitScale: {x: 1, y: 1}
+  optionModels: []
+  optionButtonScales: []
+  optionChoiceEffects: 
+  optionEventRequirements: []
+  optionCenterXRate: 0
+  highestOptionTopRate: 0
+  optionDistanceRate: 0
+  backgroundMaxAlpha: 0.8
+  backgroundAlphaSpeed: 5
+  useOptionEffectAsText: 0
+  titleTextEffect: 0
+  quitTextEffect: 3
+  slotsPerMapSide: 80
+  slotToCanvasRate: 0.03
+  wallToSlotRate: 0.2
+  markerButtonModel: {fileID: 1569858129908788, guid: b20ac315180b57d48a7401b4efe5d726,
+    type: 2}

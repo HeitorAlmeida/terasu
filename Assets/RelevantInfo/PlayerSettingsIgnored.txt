@@ -1,0 +1,19 @@
+If the player settings of resolution and etc are being ignored in the generation of builds, it is because
+Unity is picking up values that were stored in the Windows registry from a previous build. In that case you
+need to wipe these playerprefs. Use a script like this to add the option of wiping playerprefs to Unity Editor.
+
+using UnityEditor;
+using UnityEngine;
+ 
+public class AddMenu : EditorWindow
+{
+     [MenuItem("Edit/Reset Playerprefs")]
+ 
+     public static void DeletePlayerPrefs()
+     {
+         PlayerPrefs.DeleteAll();
+     }
+ 
+}
+
+This script should be stored in a folder called Editor, inside the project.

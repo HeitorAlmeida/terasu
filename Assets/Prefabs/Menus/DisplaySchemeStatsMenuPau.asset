@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ca7bf9ea1277f40a75fccb3f947367, type: 3}
+  m_Name: DisplaySchemeStatsMenuPau
+  m_EditorClassIdentifier: 
+  displayLevel: 1
+  levelAnchorAlignment: 1
+  levelPositionRates: {x: 0.2, y: 0.75}
+  levelScales: {x: 1.5, y: 1.5}
+  attributeAnchorAlignment: 2
+  attributeScales: {x: 1, y: 1}
+  attributeMaxDigits: 3
+  attributes: 020000000300000000000000010000000400000005000000
+  attributeNamePosRates:
+  - {x: 0.2, y: 0.65}
+  - {x: 0.2, y: 0.57}
+  - {x: 0.2, y: 0.49}
+  - {x: 0.2, y: 0.41}
+  - {x: 0.2, y: 0.33}
+  - {x: 0.2, y: 0.25}
+  attributeBasePosRates: []
+  attributeEquipPosRates: []
+  attributeTotalPosRates:
+  - {x: 0.28, y: 0.65}
+  - {x: 0.28, y: 0.57}
+  - {x: 0.28, y: 0.49}
+  - {x: 0.28, y: 0.41}
+  - {x: 0.28, y: 0.33}
+  - {x: 0.28, y: 0.25}

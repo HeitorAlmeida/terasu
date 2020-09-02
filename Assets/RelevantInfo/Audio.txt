@@ -1,0 +1,22 @@
+
+Audio playback in Android has a really long delay when dealing with Unity's AudioSource and AudioClips.
+Like half a second long, unacceptably long. It may even be unnoticed when dealing with musics, but when
+we play sound effects that must be as synchronized as possible with the visuals, it fails miserably. 
+
+Some kind people developed a plugin that bypasses a lot of the sound preparation that Unity does in
+Android, and this plugin does not use the AudioSource or AudioClips. It loads at runtime the wav sounds
+and plays them much faster. The audio files have to be in a specific folder, within Assets, called
+StreamingAssets. However, when you put any audio files within this StreamingAssets folder, they lose
+their AudioClip status and can no longer be used as such. For that reason, they can't be assigned to
+public AudioClip fields in objects. Furthermore, they have to be loaded from a string with their path.
+
+The conclusion is that we either need to have duplicates of all sound effects, one version as AudioClip
+outside of StreamingAssets and one version as wav within StreamingAssets or we need a way of obtaining
+the AudioClip from a wav file. The plugin already supports the duplicates option.
+
+If we choose to have duplicates, it is needed to set the paths outside of StreamingAssets and inside it
+as duplicates so we can use the same path string to load the AudioClip version and the wav version.
+Like this: "Assets/StreamingAssets/Resources/Sounds/jump.wav" and "Assets/Resources/Sounds/jump".
+When the plugin loads a wav sound in Android, the path it creates starts with "Resources/Sounds/", so
+that path has to be valid from the StreamingAssets folder. When the plugin loads an AudioClip to use
+outside of Android, it uses the "Sounds/" path from the Resources folder. 

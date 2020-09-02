@@ -1,0 +1,6 @@
+
+Things to do before creating and publishing a final build:
+
+-Unite tile colliders into bigger colliders to make the game run faster and to avoid pushing the player that moves parallel to walls.
+
+-Check package and product names in player settings of the build. This is extremely important cause once a package is uploaded to the definitions of an app in google play store, the app will only accept update packages containing the same package and product names. Since, in google play, the app name is unique, you cannot create another app with the same name. If you upload a package with a messed up package and product name, you essentially lose the app name.

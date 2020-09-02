@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8e604dc248c3d4ea5b8c7fefac736c, type: 3}
+  m_Name: DisplaySchemeMatrixInvAction
+  m_EditorClassIdentifier: 
+  buttonElementModel: {fileID: 1656609878700496, guid: 98b9cfe14192b4b44bdeb98df20b51c1,
+    type: 2}
+  buttonElementScale: {x: 1.5, y: 1.5}
+  buttonReturnModel: {fileID: 0}
+  buttonReturnScale: {x: 0, y: 0}
+  buttonAdvanceModel: {fileID: 0}
+  buttonAdvanceScale: {x: 0, y: 0}
+  elementPositionRates:
+  - {x: 0.275, y: 0.5}
+  - {x: 0.425, y: 0.5}
+  - {x: 0.575, y: 0.5}
+  - {x: 0.725, y: 0.5}
+  returnPositionRates: {x: 0, y: 0}
+  advancePositionRates: {x: 0, y: 0}
+  elementContentOffsetRates: []
+  elementsScrolled: 0

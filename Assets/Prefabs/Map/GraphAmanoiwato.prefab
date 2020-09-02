@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1212272462098660}
+  m_IsPrefabParent: 1
+--- !u!1 &1212272462098660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4028574188090378}
+  - component: {fileID: 114999013718020302}
+  m_Layer: 0
+  m_Name: GraphAmanoiwato
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4028574188090378
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1212272462098660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114999013718020302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1212272462098660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de55c2a7a444fc4bb6b9a4f74639065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeModels:
+  - {fileID: 1529412327859852, guid: 6dcab1717353cba4ebd076d9db45e615, type: 2}
+  - {fileID: 1529412327859852, guid: 4a021cdbfe5630b488e77ed93816123e, type: 2}
+  - {fileID: 1529412327859852, guid: 79a029526dd152a4784ce92de60f15bc, type: 2}
+  - {fileID: 1529412327859852, guid: b31da692fbc199f42910a0aed1ae6772, type: 2}
+  - {fileID: 1529412327859852, guid: 7e96af90a67c52f4db6f191b82fd0237, type: 2}
+  - {fileID: 1529412327859852, guid: 03af5e7fde1673340b6c9fc07d730485, type: 2}
+  - {fileID: 1529412327859852, guid: 8aa8d44334636014a88a4ab7f17a9b9b, type: 2}
+  - {fileID: 1529412327859852, guid: 6cd0b53576891974fa5637f6d77663d4, type: 2}
+  - {fileID: 1529412327859852, guid: c2b221323237bcd43833dc0cb5afcd4c, type: 2}
+  - {fileID: 1529412327859852, guid: c7396b681962ae04bb35c1b310463479, type: 2}
+  - {fileID: 1529412327859852, guid: e0848daad61b04f4e853e4c9b6942524, type: 2}
+  - {fileID: 1529412327859852, guid: 5167168ea320b7c43b6562b4208e85e9, type: 2}
+  - {fileID: 1529412327859852, guid: 70ed4f615afcbd64dad539e4a6293548, type: 2}
+  - {fileID: 1529412327859852, guid: 500e4abc2a9c4cf47bf305b2559181e9, type: 2}
+  - {fileID: 1529412327859852, guid: 385369b05d16ae141b96e8768641b92d, type: 2}
+  - {fileID: 1529412327859852, guid: ccff8f7b783755947a9b5ddeb467bebd, type: 2}
+  - {fileID: 1529412327859852, guid: 388730d1da3412f458e6163dabfc364d, type: 2}
+  - {fileID: 1529412327859852, guid: 55213e9024fa25a4088e543fce185ddc, type: 2}
+  - {fileID: 1529412327859852, guid: e1a22ebd7be142a438fe8649adb08675, type: 2}
+  - {fileID: 1529412327859852, guid: d0426caafcf4d244ebe837065adfa4c0, type: 2}
+  - {fileID: 1529412327859852, guid: 434002566289ef44fb81b09f1b57c29b, type: 2}
+  - {fileID: 1529412327859852, guid: 7c8de4b6f4d74a643a7c95334ea8caeb, type: 2}
+  - {fileID: 1529412327859852, guid: f6a5941fe4312544babeec9c6eb9e0b3, type: 2}
+  - {fileID: 1529412327859852, guid: 7fe92dc0269d2e444817833b18e81be3, type: 2}
+  - {fileID: 1529412327859852, guid: 81bd3175ba638db4d95b74d38faa64c4, type: 2}
+  - {fileID: 1529412327859852, guid: 8c9abb4fe7f4d6948aca19176ccdc550, type: 2}
+  - {fileID: 1529412327859852, guid: 3d173bc8dd9ba6649b199db4090313a2, type: 2}
+  - {fileID: 1529412327859852, guid: bf14b594234f5424ebe039fa1af5fb5c, type: 2}
+  - {fileID: 1529412327859852, guid: db390502d38cccf4faa4f48a9d0b20b1, type: 2}
+  - {fileID: 1529412327859852, guid: 84b059918a716754b8953da45cef66f2, type: 2}
+  - {fileID: 1529412327859852, guid: b8928e5158e281b448161ed55d352211, type: 2}
+  - {fileID: 1529412327859852, guid: c5d0503825697f543b5ad4833012621c, type: 2}
+  - {fileID: 1529412327859852, guid: 83e3ca76acbcb7a439dda8c26096de2f, type: 2}
+  - {fileID: 1529412327859852, guid: 03bab76bec4e7e144816786ccace0766, type: 2}
+  - {fileID: 1529412327859852, guid: f8f23e8e4b5a7634c8e81fd607bb5b32, type: 2}
+  - {fileID: 1529412327859852, guid: c4dd4808db601bc4aab96426573deea3, type: 2}
+  - {fileID: 1529412327859852, guid: 52e93fead6f2d5d4bacdbb9a2bd0eebe, type: 2}
+  - {fileID: 1529412327859852, guid: 51cdca0543602bf4ab32c059528cf63a, type: 2}
+  - {fileID: 1529412327859852, guid: 311d1b5492016204298a9efe5d743e5c, type: 2}
+  - {fileID: 1529412327859852, guid: 49cf10a9d2dcb504e8149400f05f5e56, type: 2}
+  - {fileID: 1529412327859852, guid: b58b50cb751429c408af710781e54a40, type: 2}
+  - {fileID: 1529412327859852, guid: 1dc868a2e289b184a9a8b358edcd72a1, type: 2}
+  - {fileID: 1529412327859852, guid: 2914be7d3cf1452439271ef2244eb9f7, type: 2}
+  - {fileID: 1529412327859852, guid: 31f15e2cee6a99d4aa7a43b40c292adf, type: 2}
+  - {fileID: 1529412327859852, guid: 77108622d723b214e9ed91ebb23b8edb, type: 2}
+  - {fileID: 1529412327859852, guid: 43fa1be461f5f1c4a98b7516d75e7cdd, type: 2}
+  - {fileID: 1529412327859852, guid: 2203255b930ff2d4ba9e26d58f8eab8b, type: 2}
+  - {fileID: 1529412327859852, guid: 5bdd4ae729bf3d648ac327d45c66052f, type: 2}
+  - {fileID: 1529412327859852, guid: 74f00fb625144ab48bdfe8133bc448f4, type: 2}
+  - {fileID: 1529412327859852, guid: 32a18b17f0e6e514fad6131222556edc, type: 2}
+  - {fileID: 1529412327859852, guid: 0552292f17cca6b41a8de8fcd87eeedb, type: 2}
+  - {fileID: 1529412327859852, guid: d1febd5cdc40cfa4d8be8e1d11e7680a, type: 2}
+  - {fileID: 1529412327859852, guid: 32444d913ff8de34e87754120fa8d921, type: 2}
+  - {fileID: 1529412327859852, guid: 4fca6f4ac12b6e24396494da3c639fc8, type: 2}
+  - {fileID: 1529412327859852, guid: 825c2a3a6ed696645903d90736cda17c, type: 2}
+  - {fileID: 1529412327859852, guid: 514bcb77c97696648ba80a0381077aa6, type: 2}
+  - {fileID: 1529412327859852, guid: aa5cb5a6182083d4797fdf83edfb89e5, type: 2}
+  suggestedStartNodeID: 1
+  startNodeMapRow: 30
+  startNodeMapColumn: 3
+  costsToUnlockAreas: 0000000090010000

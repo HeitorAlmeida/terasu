@@ -1,0 +1,51 @@
+
+--About the construction of the stages--
+
+For this project, I will be once again using tiles to build the stages. Here's why:
+
+Tiles were an automatic choice for Promethea cause one of the premisses in promethea was
+the breakability of every piece of the stage. That could only be achieved with tiles. In
+this project, however, I plan to place certain breakable objects within the stage and not
+make every part of the stage breakable. This would suggest that tiles are not needed for
+the current project.
+
+If I don't use tiles, I have to use heterogeneous pieces that I will have to predefine
+before building the challenges of the stages. I will have to set the look of each individual
+piece when I create a different stage theme and these pieces can never be rotated or scaled,
+since the look and logic may need to establish surfaces with different aspects, like grass
+covering the upper surface and rock constituting the lower surface of a piece. To really
+support the creation of any kind of obstacle or challenge, a great number of differently
+sized pieces would be needed. Some longer than others, some shorter, some broader, some
+thinner. Since tiles allowed me to assemble any kind of obstacle, these pieces would, in
+reality, be just glued sets of tiles, and each of these sets would need a particular look,
+a particular sprite, cause I would not be able to rescale a sprite for more than one piece
+since rescaling breaks the uniform pixel aspect.
+
+Still, using pieces would be helpful for stage building for I would be able to use unity's
+editor as the stage editor, and the challenges would be prefabs easily loaded into the game.
+But that is more of a problem than an advantage, cause even uninstantiated prefabs consume
+memory. Every prefab that is placed in a public field of a script has at least one instance
+of it loaded in memory, cause that is the instance that will be replicated when you actually
+instantiate the prefab. That means that if I have a great number of different challenges
+that are instantiated in different areas of the game, at least one of each will be constantly
+taking memory and that will make the game unplayable. This means I would have to build a new
+stage challenge editor to deal with pieces, to save the challenges into simple text files as
+I do with tiled challenges.
+
+At this point it is clear that, if I used pieces to build the stages instead of tiles, I would
+need a large number of pieces with exclusive sizes and looks and also an entirely new stage
+editor to deal with all these different pieces. That seems like a lot of work. But what is the
+problem with tiles, anyway?
+
+For this project I need circle and triangle collisions to improve the flow of movement in
+comparison with Promethea. Even if I implemented these two in my physics controller, I doubt
+I could make it run faster than Unity's own collision detection, which I imagine may use
+some low level optimizations that I could not attain through C# code. But to use Unity's
+physics, I can't have all these little collision boxes around the scenery cause its flawed
+collision detecion detects edges between perfectly aligned tiles making some bumps in character
+movement, and even complete stops in some cases. Reducing the number of collision boxes was
+the reason I thought of heterogeneous pieces, since Unity does not screw up movement if the
+object does not move over collision box frontiers. However, I can implement a way to merge
+tile colliders within the challenge editor, and that solves all problems. The tiles would
+still exist, but only visually. The actual collision shapes used by the physics would be
+the collision shapes of many tiles merged together.

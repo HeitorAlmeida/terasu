@@ -1,0 +1,328 @@
+<gameText>
+	<platformTexts>
+		<ptext id="0" platformId="0" autoClose="false">
+			<text>Touch the left half of the screen to move around.</text>
+		</ptext>
+		<ptext id="0" platformId="1" autoClose="false">
+			<text>Hold keys "W", "A", "S" and "D" to move around.</text>
+		</ptext>
+		<ptext id="1" platformId="0" autoClose="false">
+			<text>Touch the right half of the screen to shoot at any direction.</text>
+		</ptext>
+		<ptext id="1" platformId="1" autoClose="false">
+			<text>Hold the arrow keys to shoot at any direction.</text>
+		</ptext>
+		<ptext id="2" platformId="0" autoClose="false">
+			<text>To access the inventory, pause the game.</text>
+		</ptext>
+		<ptext id="2" platformId="1" autoClose="false">
+			<text>To access the inventory, press "Esc".</text>
+		</ptext>
+		<ptext id="3" platformId="0" autoClose="false">
+			<text>To progress an open transaction, touch its box.</text>
+		</ptext>
+		<ptext id="3" platformId="1" autoClose="false">
+			<text>To progress an open transaction, press the "Return" key, the "Space" key or click its box.</text>
+		</ptext>
+	</platformTexts>
+	<systemTexts>
+		<stext id="0" autoClose="false">
+			<text>Yes.</text>
+		</stext>
+		<stext id="1" autoClose="false">
+			<text>No.</text>
+		</stext>
+		<stext id="2" autoClose="false">
+			<text>Save your progress?</text>
+		</stext>
+		<stext id="3" autoClose="false">
+			<text>Saving will overwrite previous record. Proceed?</text>
+		</stext>
+		<stext id="4" autoClose="true">
+			<text>Progress saved.</text>
+		</stext>
+		<stext id="5" autoClose="true">
+			<text>Save operation canceled.</text>
+		</stext>
+		<stext id="6" autoClose="true">
+			<text>Save operation failed.</text>
+		</stext>
+		<stext id="7" autoClose="false">
+			<text>Investment</text> 
+		</stext>
+		<stext id="8" autoClose="false">
+			<text>Investing</text>
+		</stext>
+		<stext id="9" autoClose="false">
+			<text>Withdrawal</text>
+		</stext>
+		<stext id="10" autoClose="false">
+			<text>Withdrawing</text>
+		</stext>
+		<stext id="11" autoClose="false">
+			<text>Level</text>
+		</stext>
+		<stext id="12" autoClose="false">
+			<text>ACCEL</text>
+		</stext>
+		<stext id="13" autoClose="false">
+			<text>MAX SPEED</text>
+		</stext>
+		<stext id="14" autoClose="false">
+			<text>MAX HP</text>
+		</stext>
+		<stext id="15" autoClose="false">
+			<text>MAX MP</text>
+		</stext>
+		<stext id="16" autoClose="false">
+			<text>ATTACK</text>
+		</stext>
+		<stext id="17" autoClose="false">
+			<text>MAX FREQ</text>
+		</stext>
+		<stext id="18" autoClose="false">
+			<text>HEAD</text>
+		</stext>
+		<stext id="19" autoClose="false">
+			<text>NECK</text>
+		</stext>
+		<stext id="20" autoClose="false">
+			<text>TORSO</text>
+		</stext>
+		<stext id="21" autoClose="false">
+			<text>ARMS</text>
+		</stext>
+		<stext id="22" autoClose="false">
+			<text>LEGS</text>
+		</stext>
+		<stext id="23" autoClose="false">
+			<text>ITEMS</text>
+		</stext>
+		<stext id="24" autoClose="false">
+			<text>PAUSED</text>
+		</stext>
+		<stext id="25" autoClose="false">
+			<text>UNPAUSE</text>
+		</stext>
+		<stext id="26" autoClose="false">
+			<text>CLOSE</text>
+		</stext>
+		<stext id="27" autoClose="false">
+			<text>MAP</text>
+		</stext>
+		<stext id="28" autoClose="false">
+			<text>INVENTORY</text>
+		</stext>
+		<stext id="29" autoClose="false">
+			<text>QUIT</text>
+		</stext>
+		<stext id="30" autoClose="false">
+			<text>EQUIP</text>
+		</stext>
+		<stext id="31" autoClose="false">
+			<text>UNEQUIP</text>
+		</stext>
+		<stext id="32" autoClose="false">
+			<text>USE</text>
+		</stext>
+	</systemTexts>
+	<dialogueTexts>
+		<dtext id="0" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>--DEBUG--Yes! Now I can shoot. Touch the right half of the screen.</text>
+		</dtext>
+		<dtext id="1" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>--DEBUG--Touch the left half of the screen to move around.</text>
+		</dtext>
+		<dtext id="2" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>!!!</text>
+		</dtext>
+		<dtext id="3" speakerName="Yata" tryAbove="true" autoClose="true">
+			<text>Hello!</text>
+		</dtext>
+		<dtext id="4" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>I'm Yatagarasu but, please, call me Yata. And who might you be, young one?</text>
+		</dtext>
+		<dtext id="5" speakerName="Terasu" tryAbove="true" autoClose="true">
+			<text>...</text>
+		</dtext>
+		<dtext id="6" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>It's been a while since I last ran into anyone in this place... What brings you here?</text>
+		</dtext>
+		<dtext id="7" speakerName="Terasu" tryAbove="true" autoClose="true">
+			<text>......</text>
+		</dtext>
+		<dtext id="8" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>No response, blank expression, opaque eyes... I see. You don't remember much, do you, child? Still, I have no choice.</text>
+		</dtext>
+		<dtext id="9" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>I'm searching for the Sun. Would you have seen it around here?</text>
+		</dtext>
+		<dtext id="10" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>T...The...... Sun...</text>
+		</dtext>
+		<dtext id="11" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Yes, the Sun! I must find it... I can't leave the endless darkness of these galleries otherwise. Have you seen it?</text>
+		</dtext>
+		<dtext id="12" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>N...No.</text>
+		</dtext>
+		<dtext id="13" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Thought as much.</text>
+		</dtext>
+		<dtext id="14" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Mine is a very important mission, you see? But I'm exhausted and had my left wing twisted at that last turn there... so I'm afraid I'm gonna need your help.</text>
+		</dtext>
+		<dtext id="15" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Take me with you and I will guide us both out of here. Sounds good, right?</text>
+		</dtext>
+		<dtext id="16" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Shall we?</text>
+		</dtext>
+		<dtext id="17" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>You will realize, my dear, that we must always reach for the light. It's everywhere, but unless you search for it, you'll never find a single ray.</text>
+		</dtext>
+		<dtext id="18" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>Search for... light.</text>
+		</dtext>
+		<dtext id="19" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>I'm glad you understand. As you can see, the shadows here are hungry, avid for swallowing us. Should they succeed, you would return to nothingness and I would suffer the same fate.</text>
+		</dtext>
+		<dtext id="20" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Despite being together, we'd be worlds apart. No memory, no will, no purpose. Lost souls.</text>
+		</dtext>
+		<dtext id="21" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>I have... a purpose... now. To find the Sun.</text>
+		</dtext>
+		<dtext id="22" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Yes, my dear! And I thank you very much for that. Even though that is my purpose, I'm certain you'll remember yours shortly.</text>
+		</dtext>
+		<dtext id="23" speakerName="Yata" tryAbove="true" autoClose="true">
+			<text>Wait!!!</text>
+		</dtext>
+		<dtext id="24" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Can you see this floating dark mass ahead of us?</text>
+		</dtext>
+		<dtext id="25" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Never touch or get too close to this kind of creature, child. These are material manifestations of darkness, so high its concentration at these places.</text>
+		</dtext>
+		<dtext id="26" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Merely touching them will cause your warmth and your essence to be sucked out into the void. They are shortcuts to nothingness, to the loss of all we know and are.</text>
+		</dtext>
+		<dtext id="27" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>I can't move.... is this... fear?</text>
+		</dtext>
+		<dtext id="28" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Oh, I'm sorry. It seems I've made you remember this rather uncomfortable feeling. But don't worry, my dear. This particular kind of shadow will not advance against us.</text>
+		</dtext>
+		<dtext id="29" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>It just forces us to turn around and look for another viable path. For now, this is a dead end.</text>
+		</dtext>
+		<dtext id="30" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Besides, you are now able to light the darkness, right? Do your magic and clear the path, you've got what it takes.</text>
+		</dtext>
+		<dtext id="31" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>What is this?... It's beautiful!</text>
+		</dtext>
+		<dtext id="32" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Is this what you're looking for? Don't mind me, go ahead.</text>
+		</dtext>
+		<dtext id="33" speakerName="Terasu" tryAbove="true" autoClose="true">
+			<text>I can see...</text>
+		</dtext>
+		<dtext id="34" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>And what can you see, my dear?</text>
+		</dtext>
+		<dtext id="35" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>Blue skies and green fields... the flowers and the animals, lively and nimble. I see the day and I see life.</text>
+		</dtext>
+		<dtext id="36" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Uhmm... that's interesting. These are things that disappeared a long time ago. It's the Sun, you see? Or used to be, at least. It allowed all these things to manifest or, as we used to say, to be born.</text>
+		</dtext>
+		<dtext id="37" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>But it vanished, and that was so long ago that all we have left today are memories of this phenomenon we called life. Which leads me to believe you've found exactly that, a Memory Fragment.</text>
+		</dtext>
+		<dtext id="38" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Hey, did you notice you are, now, irradiating light? It's almost imperceptible, like an aura.</text>
+		</dtext>
+		<dtext id="39" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>I know many spirits who share this property, but I had never seen it in a lost soul before. Moreover, your aura's color is rather uncommon and reminds me of an old friendship...</text>
+		</dtext>
+		<dtext id="40" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>By the way, we need a name for you, at least until you remember yours... what about "Terasu"?</text>
+		</dtext>
+		<dtext id="41" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>I like it!</text>
+		</dtext>
+		<dtext id="42" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Then it's decided, Terasu. This newfound, faint aura of yours will be of much use to us in here.</text>
+		</dtext>
+		<dtext id="43" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>Do you think so?... I don't know, it's too weak to light the way...</text>
+		</dtext>
+		<dtext id="44" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Oh... I suppose, then, you haven't learned how to use it with the memories you collected.</text>
+		</dtext>
+		<dtext id="45" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>I'll explain: it's only weak when dispersed around your body. If you try focusing it, however, you'll be able to produce a strong beam of light. Please, remember: focused light beams can dissipate even the densest shadows.</text>
+		</dtext>
+		<dtext id="46" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>You seem to be puzzled by this contraption, aren't you, child?</text>
+		</dtext>
+		<dtext id="47" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>Yes, I am. What could this be, Yata? I feel like I knew it once, but can no longer remember...</text>
+		</dtext>
+		<dtext id="48" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>Not to worry, my dear. You'll recollect it all in due time.</text>
+		</dtext>
+		<dtext id="49" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>This, here, is a Beacon. If we can manage to infuse the mechanism with enough luminous energy, it can make light rays travel further.</text>
+		</dtext>
+		<dtext id="50" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>We are currently in a lit area of Amanoiwato, this immense cave. As you have already come to understand, in order for a spirit to withstand the corruption of darkness in here, it needs to constantly search for light.</text>
+		</dtext>
+		<dtext id="51" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>However, there are areas of the cave where light is currently unable to reach. Delving into these pits is certain demise for us. By activating beacons, we can make these places traversable.</text>
+		</dtext>
+		<dtext id="52" speakerName="Terasu" tryAbove="true" autoClose="false">
+			<text>I see. I guess we will not be able to go very far unless we get a few beacons lit, right? Thank you, Yata. I'm glad you're here.</text>
+		</dtext>
+		<dtext id="53" speakerName="Yata" tryAbove="true" autoClose="false">
+			<text>You're most welcome, child. I'm also glad for your assistance.</text>
+		</dtext>
+	</dialogueTexts>
+	<itemTexts>
+		<itext id="0" name="Small Light">
+			<text>A flake of luminous spiritual energy.</text>
+		</itext>
+		<itext id="1" name="Save Totem">
+			<text>A divine device that records the stories of the gods.</text>
+		</itext>
+		<itext id="2" name="Divine Beacon 1">
+			<text>A beacon used by the gods to produce light with increased diffraction, so that it reaches deeper chambers and further lands.</text>
+		</itext>
+		<itext id="3" name="Relic Arrow">
+			<text>A relic created from memory fragments of a radiant god.</text>
+		</itext>
+		<itext id="5" name="Place Holder Item1">
+			<text>A debug item with no purpose aside from pointing the position at which a more useful item may be inserted in the future.</text>
+		</itext>
+		<itext id="6" name="Place Holder Item2">
+			<text>A debug item with no purpose aside from pointing the position at which a more useful item may be inserted in the future.</text>
+		</itext>
+		<itext id="7" name="Place Holder Item3">
+			<text>A debug item with no purpose aside from pointing the position at which a more useful item may be inserted in the future.</text>
+		</itext>
+		<itext id="8" name="Place Holder Item4">
+			<text>A debug item with no purpose aside from pointing the position at which a more useful item may be inserted in the future.</text>
+		</itext>
+		<itext id="20" name="Agate Magatama">
+			<text>An agate curved stone imbued with spiritual power. Slightly improves many abilities of its wearer.</text>
+		</itext>
+		<itext id="30" name="Joumon Ring">
+			<text>An ancient ring made of clay adorned with cord patterns and an unpolished stone. It slightly favors focusing energy at one's finger.</text>
+		</itext>
+		<itext id="40" name="Joumon Tiara">
+			<text>An ancient tiara made of clay adorned with cord patterns. It slightly increases one's magical reserves and provides a little protection.</text>
+		</itext>
+	</itemTexts>
+</gameText>

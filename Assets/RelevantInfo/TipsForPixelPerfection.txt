@@ -1,0 +1,39 @@
+* Look for an adequate orthographic camera size value.
+The ocs corresponds to the number of world units that will be shown in half the screen height.
+The relationship between world units and pixels is stablished when importing a sprite with the PPU value.
+
+* On the sprite:
+Ensure your sprites are using lossless compression e.g. True Color.
+Turn off mipmapping.
+Use Point sampling.
+
+* In Render Quality Settings:
+Turn off anisotropic filtering.
+Turn off anti aliasing.
+
+* Study for PPU value:
+
+Most popular Android screen resolution : 1280 x 720
+
+The game should be playable with one hand, so the phone must be in portrait,
+which means the vertical screen size is 1280. Half the vertical screen size
+is Unity's camera's orthographic size in world units. The default orthographic
+size is 5, which means the camera will show five world units up and five down
+from the center of the screen, in a total of 10 world units on screen. In
+this case, 10 world units will be represented with 1280 pixels, which means
+the unit will be represented by 128 pixels.
+
+When importing a texture, we define how many pixels of that texture cover a
+unit of the world, a measure called PPU. So, let us say that a given texture
+has a PPU of 10 and is only 5 pixels high. That texture, when applied, will
+have the height of 0.5 world units. However, we have already established that
+a unit in the world will be represented by 128 pixels, which means that these
+five pixels of height of the texture will be stretched to fill 64 actual screen
+pixels. If we use this stretching wisely, we can give a more pixelated look to
+the game. If, in this case, we wanted one of our pixels to look 2 times as big
+as they are, we could import a texture with a PPU of 64. When applied to an
+object, that texture would have every 64 pixels of its height represented by
+128 actual screen pixels. If we wanted the pixels of our textures to be even
+more evident, we could import the texture with a PPU of 32, making it so that
+a single pixel of our texture would be stretched to fill 16 actual screen pixels.
+ 

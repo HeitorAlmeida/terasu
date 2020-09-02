@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1402230486907400}
+  m_IsPrefabParent: 1
+--- !u!1 &1402230486907400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4355020742554862}
+  - component: {fileID: 114687327890236386}
+  m_Layer: 0
+  m_Name: ChallengeEditor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4355020742554862
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402230486907400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114687327890236386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402230486907400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d8b6056bfec7b4fb774613e6709e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileDividerModel: {fileID: 155994, guid: f65b9d7d1533ab54283defcf84b721a0, type: 2}
+  sizeMarkerModel: {fileID: 102606, guid: 593e34732b2f89f4e9f6ada8e77774b0, type: 2}
+  spawnMarkerModel: {fileID: 185078, guid: 8f58b820be465364bb4bdaad54d8f6e1, type: 2}
+  colliderMarkerModel: {fileID: 185078, guid: a7689db89515bf445bbef60d2eef8199, type: 2}
+  waypointMarkerModel: {fileID: 185078, guid: d4804be2a951cac40aad7c64158f1cf7, type: 2}
+  imagePrefabOverlay: {fileID: 152680, guid: aa3794d127d93584b9ed7d1b604ebf94, type: 2}
+  imagePrefabPanel: {fileID: 152640, guid: 93d6ab9d0fee6b747b55201ac770a43e, type: 2}
+  imagePrefabPanelCodes: {fileID: 118308, guid: 01a093d654f26ae498ed5d96a25364a9,
+    type: 2}
+  imagePrefabPanelName: {fileID: 118308, guid: 6756b60ecce7db548a1b69e977d55e6c, type: 2}
+  inputPrefabID: {fileID: 137556, guid: 718f2fc5b8270384b8dcaf5c232f7fd1, type: 2}
+  inputPrefabDifficulty: {fileID: 188088, guid: d83b8b6ecae7c154590207e52872050e,
+    type: 2}
+  textPrefabCurrentID: {fileID: 1406159794682302, guid: 4b62d28dc52b07b45a027fc756d3ac4d,
+    type: 2}
+  textPrefabID: {fileID: 119092, guid: 7de02269936075742852adb82a18e666, type: 2}
+  textPrefabDifficulty: {fileID: 183960, guid: ebe81fc32f0e74c48b4d8e50a1077c60, type: 2}
+  buttonPrefabSave: {fileID: 149848, guid: 0063dbe415b74aa478bb04f0c13fc655, type: 2}
+  buttonPrefabLoad: {fileID: 181148, guid: 2f9a3b8d4be39b046b2359f3cb637748, type: 2}
+  buttonPrefabConfirm: {fileID: 131240, guid: c1e23d06c2c330c46a085c5998610401, type: 2}
+  buttonPrefabCancel: {fileID: 108316, guid: ab81939c3a27ae348b639a067c0f581b, type: 2}
+  buttonPrefabDividers: {fileID: 108478, guid: 13471e8a92b48284ebbe3ad50f1c069c, type: 2}
+  buttonPrefabPurpose: {fileID: 177886, guid: 73dae2b385482964baa3f71d2cfa4688, type: 2}
+  buttonPrefabDecrease: {fileID: 128276, guid: 4905ca884a34eda4a954c42e36576434, type: 2}
+  buttonPrefabIncrease: {fileID: 181960, guid: 9e6a014e18f93414bb01acae2d35e07b, type: 2}
+  togglePrefabMirror: {fileID: 191508, guid: 184b7e284b09f1047a242cbbfc46d3db, type: 2}
+  togglePrefabDelete: {fileID: 191508, guid: 06449170d2f03e34fbee5bed90ed1909, type: 2}
+  indexTileFactoryFront: 3
+  indexTileFactoryBack: 4

@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1312675077336556}
+  m_IsPrefabParent: 1
+--- !u!1 &1312675077336556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4321129922702274}
+  - component: {fileID: 114655591046404726}
+  m_Layer: 0
+  m_Name: FontClassicYellow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4321129922702274
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312675077336556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114655591046404726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312675077336556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6f973507e7798548853036c25bd001d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  digitZero: {fileID: 21300000, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  digitOne: {fileID: 21300002, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  digitTwo: {fileID: 21300004, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  digitThree: {fileID: 21300006, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  digitFour: {fileID: 21300008, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  digitFive: {fileID: 21300010, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  digitSix: {fileID: 21300012, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  digitSeven: {fileID: 21300014, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  digitEight: {fileID: 21300016, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  digitNine: {fileID: 21300018, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signMultiply: {fileID: 21300020, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signDivide: {fileID: 21300022, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signPlus: {fileID: 21300024, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signMinus: {fileID: 21300026, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signMod: {fileID: 21300034, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signExclamation: {fileID: 21300028, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signInterrogation: {fileID: 21300030, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signPeriod: {fileID: 21300032, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signDollar: {fileID: 21300088, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signComma: {fileID: 21300090, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signApostrofe: {fileID: 0}
+  signUnderline: {fileID: 21300092, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  signSpace: {fileID: 21300094, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterA: {fileID: 21300036, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterB: {fileID: 21300038, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterC: {fileID: 21300040, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterD: {fileID: 21300042, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterE: {fileID: 21300044, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterF: {fileID: 21300046, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterG: {fileID: 21300048, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterH: {fileID: 21300050, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterI: {fileID: 21300052, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterJ: {fileID: 21300054, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterK: {fileID: 21300056, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterL: {fileID: 21300058, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterM: {fileID: 21300060, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterN: {fileID: 21300062, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterO: {fileID: 21300064, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterP: {fileID: 21300066, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterQ: {fileID: 21300068, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterR: {fileID: 21300070, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterS: {fileID: 21300072, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterT: {fileID: 21300074, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterU: {fileID: 21300076, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterV: {fileID: 21300078, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterW: {fileID: 21300080, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterX: {fileID: 21300082, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterY: {fileID: 21300084, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterZ: {fileID: 21300086, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterAMin: {fileID: 21300036, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterBMin: {fileID: 21300038, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterCMin: {fileID: 21300040, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterDMin: {fileID: 21300042, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterEMin: {fileID: 21300044, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterFMin: {fileID: 21300046, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterGMin: {fileID: 21300048, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterHMin: {fileID: 21300050, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterIMin: {fileID: 21300052, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterJMin: {fileID: 21300054, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterKMin: {fileID: 21300056, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterLMin: {fileID: 21300058, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterMMin: {fileID: 21300060, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterNMin: {fileID: 21300062, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterOMin: {fileID: 21300064, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterPMin: {fileID: 21300066, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterQMin: {fileID: 21300068, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterRMin: {fileID: 21300070, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterSMin: {fileID: 21300072, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterTMin: {fileID: 21300074, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterUMin: {fileID: 21300076, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterVMin: {fileID: 21300078, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterWMin: {fileID: 21300080, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterXMin: {fileID: 21300082, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterYMin: {fileID: 21300084, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  characterZMin: {fileID: 21300086, guid: 62e0fc348c9e0a44daae6642682e1251, type: 3}
+  fontModMaterial: {fileID: 0}

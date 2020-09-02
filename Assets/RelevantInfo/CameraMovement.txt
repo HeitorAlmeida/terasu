@@ -1,0 +1,28 @@
+
+--About the movement of the camera--
+
+I was excited about using Lerp for the camera to follow the player around the level.
+Lerp would allow the camera to have a high following speed if the player were at a high
+speed and would allow the camera to approach the player slowly when he stopped.
+
+I implemented it and used the delta time from the Update to make the lerping almost
+framerate independent. When lerping from position a to position b with lerp factor f, I
+multiplied f by the timeStep. The time connection works fine, that is not the problem. It
+is not as accurate as multiplying a speed by time but it comes close to getting equal
+offsets within different framerates.
+
+Having the camera follow a fast moving player, however, the issue appeared. When the
+target(player)'s position becomes fairly far from the camera's, the camera movement becomes
+jagged. This happens because, in this project, the player has an attached rigidbody, and
+that means it is controlled by Unity's physics system, which does not update the player's
+position as often as Update is called. So, before the player position was changed by the
+physics system, the camera would lerp towards it more than once, and each time with its
+own rendered frame. Once the physics system changed the player's position, a new round
+of lerps toward that fixed position would happen, and so on. These irregular updates of
+target position between frames create steps that generate the jagged movement.
+
+The solution is to put camera movement within FixedUpdate. Within FixedUpdate we have
+the ability to act between the physics system regular updates. That means the position of
+every rigidbody has already been properly updated since the last FixedUpdate call, and
+we will never lerp the camera towards the same target position twice in a row, unless the
+target isn't moving.

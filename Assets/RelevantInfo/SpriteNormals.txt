@@ -1,0 +1,15 @@
+
+To make some cool lighting effects, I've implemented fake lights and normal maps for sprites.
+
+The fake lights are lights that interact only with the shader I've made. They are normal objects
+with no global visibility. They are not autommatically fed to all shaders like unity lights are.
+If an object wants to be lit by a fake light, it needs to feed the light information to its own shader.
+
+The fake lights interact with the shader respecting the sprite's normal map. The faces of the object
+that face the light are more lit than the faces that do not. So, the more a face of the object faces the
+light, the stronger it will be lit.
+
+To create the normal map for a sprite, I open the texture in GIMP, choose the layer, change its mode
+to greyscale. Once it's black and white, go to filters->mapping->normalMap. It gives a scale option that
+I got good results with value 6. The reverse Y option must be checked cause the shader will interpret
+the y coordinates normally only if they are reversed.
